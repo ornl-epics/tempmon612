@@ -1,0 +1,23 @@
+record(ai, "$(S):TempA") {
+  field(DESC, "Get Temp A")
+  info(archive, "Monitor, 00:01:00")
+  field(DTYP, "stream")
+  field(INP, "@TM612.proto getTempA tm1")
+  field(SCAN, "1 second")
+  field(PREC, "2")
+  field(HIHI, "5")
+  field(HHSV, "MAJOR")
+  info(autosaveFields, "HIHI")
+}
+
+record(ai, "$(S):TempB") {
+  field(DESC, "Get Temp B")
+  info(archive, "Monitor, 00:01:00")
+  field(DTYP, "stream")
+  field(INP, "@TM612.proto getTempB tm1")
+  field(SCAN, "1 second")
+  field(PREC, "2")
+  field(HIHI, "5")
+  field(HHSV, "MAJOR")
+  info(autosaveFields, "HIHI")
+}

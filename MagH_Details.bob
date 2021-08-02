@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>MagH_Details</name>
+  <height>800</height>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(S):SE:MagH:ReadField</pv_name>
+    <x>143</x>
+    <y>132</y>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Field</text>
+    <x>10</x>
+    <y>132</y>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>Upper Sweep Limit</text>
+    <y>202</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(S):SE:MagH:ReadUpperSweepLimit</pv_name>
+    <x>254</x>
+    <y>202</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>$(S):SE:MagH:ReadLowerSweepLimit</pv_name>
+    <x>254</x>
+    <y>242</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Lower Sweep Limit</text>
+    <y>242</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>Output Voltage</text>
+    <y>104</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>$(S):SE:MagH:ReadOutVoltage</pv_name>
+    <x>143</x>
+    <y>104</y>
+    <precision>3</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>$(S):SE:MagH:ReadVLimit</pv_name>
+    <x>143</x>
+    <y>163</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>Actual Voltage</text>
+    <y>71</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <pv_name>$(S):SE:MagH:ReadVoltage</pv_name>
+    <x>143</x>
+    <y>71</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_22</name>
+    <text>Sweep</text>
+    <y>282</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_21</name>
+    <pv_name>$(S):SE:MagH:ReadSweep</pv_name>
+    <x>254</x>
+    <y>282</y>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box</name>
+    <pv_name>$(S):SE:MagH:SetSweepMode</pv_name>
+    <x>140</x>
+    <y>282</y>
+    <height>20</height>
+    <show_confirm_dialog>true</show_confirm_dialog>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>$(S):SE:MagH:SetUpperSweepLimit</pv_name>
+    <x>141</x>
+    <y>202</y>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>$(S):SE:MagH:SetLowerSweepLimit</pv_name>
+    <x>141</x>
+    <y>242</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>Voltage Limit</text>
+    <y>163</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_23</name>
+    <text>Set Remote</text>
+    <y>327</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Ranges and Rates</name>
+    <y>500</y>
+    <width>450</width>
+    <height>251</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_18</name>
+      <pv_name>$(S):SE:MagH:ReadRange0</pv_name>
+      <x>22</x>
+      <y>42</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_23</name>
+      <pv_name>$(S):SE:MagH:ReadRange1</pv_name>
+      <x>22</x>
+      <y>72</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_24</name>
+      <pv_name>$(S):SE:MagH:ReadRange2</pv_name>
+      <x>160</x>
+      <y>72</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_25</name>
+      <pv_name>$(S):SE:MagH:ReadRange3</pv_name>
+      <x>22</x>
+      <y>132</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_26</name>
+      <pv_name>$(S):SE:MagH:ReadRate0</pv_name>
+      <x>290</x>
+      <y>12</y>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_30</name>
+      <text>0.0000 A</text>
+      <x>23</x>
+      <y>12</y>
+      <width>98</width>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(S):SE:MagH:ReadRange0</pv_name>
+      <x>160</x>
+      <y>12</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(S):SE:MagH:ReadRange1</pv_name>
+      <x>160</x>
+      <y>42</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>$(S):SE:MagH:ReadRange2</pv_name>
+      <x>22</x>
+      <y>102</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_8</name>
+      <pv_name>$(S):SE:MagH:ReadRange3</pv_name>
+      <x>160</x>
+      <y>102</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_9</name>
+      <pv_name>$(S):SE:MagH:ReadRange4</pv_name>
+      <x>160</x>
+      <y>132</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_10</name>
+      <pv_name>$(S):SE:MagH:ReadRate1</pv_name>
+      <x>290</x>
+      <y>42</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_11</name>
+      <pv_name>$(S):SE:MagH:ReadRate2</pv_name>
+      <x>290</x>
+      <y>72</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_12</name>
+      <pv_name>$(S):SE:MagH:ReadRate3</pv_name>
+      <x>290</x>
+      <y>102</y>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_13</name>
+      <pv_name>$(S):SE:MagH:ReadRate4</pv_name>
+      <x>290</x>
+      <y>132</y>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_15</name>
+      <text>Fast Mode</text>
+      <x>126</x>
+      <y>163</y>
+      <width>106</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_14</name>
+      <pv_name>$(S):SE:MagH:ReadRate5</pv_name>
+      <x>290</x>
+      <y>161</y>
+    </widget>
+    <widget type="slide_button" version="2.0.0">
+      <name>Boolean Button_1</name>
+      <pv_name>$(S):SE:MagH:ReadRangesRates</pv_name>
+      <label></label>
+      <x>92</x>
+      <y>183</y>
+      <width>50</width>
+      <height>25</height>
+      <off_color>
+        <color red="60" green="100" blue="60">
+        </color>
+      </off_color>
+      <on_color>
+        <color red="60" green="255" blue="60">
+        </color>
+      </on_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_32</name>
+      <text>Update</text>
+      <x>12</x>
+      <y>188</y>
+      <width>69</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Errors and States</name>
+    <x>480</x>
+    <y>531</y>
+    <height>220</height>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <pv_name>$(S):SE:MagH:ReadError</pv_name>
+      <x>188</x>
+      <y>2</y>
+      <width>29</width>
+      <off_color>
+        <color name="MEDM_COLOR_15" red="0" green="216" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_27</name>
+      <text>Global Error</text>
+      <x>42</x>
+      <y>4</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_1</name>
+      <pv_name>$(S):SE:MagH:ReadSTB.B0</pv_name>
+      <x>188</x>
+      <y>29</y>
+      <width>29</width>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_2</name>
+      <pv_name>$(S):SE:MagH:ReadSTB.B1</pv_name>
+      <x>188</x>
+      <y>59</y>
+      <width>29</width>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_3</name>
+      <pv_name>$(S):SE:MagH:ReadSTB.B2</pv_name>
+      <x>188</x>
+      <y>89</y>
+      <width>29</width>
+      <on_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_4</name>
+      <pv_name>$(S):SE:MagH:ReadSTB.B3</pv_name>
+      <x>188</x>
+      <y>119</y>
+      <width>29</width>
+      <on_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_6</name>
+      <pv_name>$(S):SE:MagH:ReadSTB.B7</pv_name>
+      <x>188</x>
+      <y>149</y>
+      <width>29</width>
+      <on_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_29</name>
+      <text>Local</text>
+      <x>52</x>
+      <y>150</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_26</name>
+      <text>Power Failure</text>
+      <x>52</x>
+      <y>120</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_25</name>
+      <text>Quench</text>
+      <x>52</x>
+      <y>90</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_24</name>
+      <text>Standby Mode</text>
+      <x>52</x>
+      <y>60</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_19</name>
+      <text>Sweep Mode</text>
+      <x>52</x>
+      <y>30</y>
+      <width>131</width>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <text>Actual Current</text>
+    <y>42</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_17</name>
+    <pv_name>$(S):SE:MagH:ReadCurrent</pv_name>
+    <x>143</x>
+    <y>42</y>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>$(S):SE:MagH:SetLocalMode</pv_name>
+    <label></label>
+    <x>133</x>
+    <y>325</y>
+    <width>107</width>
+    <height>25</height>
+    <off_color>
+      <color red="60" green="100" blue="60">
+      </color>
+    </off_color>
+    <on_color>
+      <color red="60" green="255" blue="60">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_28</name>
+    <text>TempA</text>
+    <y>362</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_31</name>
+    <text>TempB</text>
+    <y>386</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_20</name>
+    <pv_name>$(S):SE:MagH:TM:TempA</pv_name>
+    <x>141</x>
+    <y>362</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_27</name>
+    <pv_name>$(S):SE:MagH:TM:TempB</pv_name>
+    <x>141</x>
+    <y>386</y>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>$(S):SE:MagH:TM:TempA.HIHI</pv_name>
+    <x>254</x>
+    <y>362</y>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>$(S):SE:MagH:TM:TempB.HIHI</pv_name>
+    <x>254</x>
+    <y>386</y>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser</name>
+    <file>MagH_temp.plt</file>
+    <x>390</x>
+    <y>20</y>
+    <width>390</width>
+    <height>490</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>MagH Details</text>
+    <x>80</x>
+    <y>10</y>
+    <width>198</width>
+    <font>
+      <font family="PakTypeNaqsh" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_33</name>
+    <text>Alarm Limits</text>
+    <x>220</x>
+    <y>325</y>
+    <width>131</width>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+</display>
